@@ -116,6 +116,11 @@ export type CompletionItem = {
 
 // Below are basically a copy-paste from Nuclide rpc types for definitions.
 
+export type Definition_v2 = {
+  uri: Uri,
+  range: Range,
+};
+
 // Definitions/hyperlink
 export type Definition = {
   path: Uri,
